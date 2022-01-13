@@ -1,0 +1,76 @@
+@media(prefers-color-scheme: dark) {
+    :root {
+        --primary-background: #313131;
+        --primary-text-color: #FFFFFF;
+    }
+    
+    body {
+        background: var(--primary-background);
+    }
+    
+    .header__nav-logo::before {
+    content: url('../images/logo-dark-img.png');    
+    
+    }
+    
+    .header__btn-one {
+        background: var(--primary-background);
+        border-color: var(--primary-text-color);
+    }
+    
+    .header__btn {
+        border-color: var(--primary-text-color);
+    }
+    .header__prenav {
+        background:  #0C0C0C;;
+    }
+    .header__content-item-text {
+        color: var(--primary-text-color);
+    }
+    .header__nav-link {
+        color: var(--primary-text-color);
+    }
+
+    .carousel-indicators [data-bs-target].active {
+        background: var(--primary-text-color);
+    }
+    
+    .header__content-item-link {
+        border: 1px solid var(--primary-text-color);
+    }
+    
+    .main__content-link {
+        border: 1px solid var(--primary-text-color);
+    }
+
+    .playstation-left-img {
+        content: url('../images/ps5-dark-img.png');
+    }
+
+    .playstation-left-title {
+        color: var(--primary-text-color);
+    }
+
+    .playstation-left-link {
+        border: 1px solid var(--primary-text-color);
+    }
+
+    .main__top-seller-title {
+        color: var(--primary-text-color);
+    }
+
+    .top-seller-description {
+        color: var(--primary-text-color);
+    }
+
+    .top-seller-link {
+        border: 1px solid var(--primary-text-color);
+    }
+
+    .top-seller-top-title {
+     color: var(--primary-text-color);
+    }
+    .footer {
+     background: #0C0C0C;
+    }
+}

@@ -1,0 +1,1029 @@
+@import '../style/fonts.css';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+}
+
+:root {
+    --primary-color: #313131;
+    --secondary-color: #ffffff;
+}
+
+
+/* HEADER START */
+
+.heaader__none {
+  
+    color: var( #313131);
+}
+
+.header__prenav {
+background: var(--primary-color);
+padding: 15px 0;
+}
+
+.header__prenav-tell::before{
+    content: '\f879';
+    font-size: 17px;
+    color: var(--secondary-color);
+}
+
+.header__prenav-sigin::before {
+    content: '\f406';
+    font-size: 17px;
+    color: var(--secondary-color);
+}
+.header__prenav-cart::before {
+    content: '\f07a';
+    font-size: 17px;
+    color: var(--secondary-color);
+}
+
+.header__prenav-link {
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: normal;
+    color: var(--secondary-color);
+    margin-right: 42px;
+}
+.header__prenav-link:hover {
+ color: var(--secondary-color);
+}
+
+
+
+.header__prenav-lang {
+    font-size: 14px;
+    line-height:20px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: normal;
+    color: var(--secondary-color);
+    text-align: center;
+letter-spacing: 0.05em;
+margin-right: 80px;
+}
+.header__prenav-lang:hover {
+    color: var(--secondary-color);
+}
+
+.header__nav-logo::before {
+  content: url('../images/Logo.png');
+}
+
+.header__nav-search::before {
+    content: '\f002';
+    font-size: 17px;
+    color: var(--secondary-color);
+}
+
+
+.header__nav-search-title {
+   display: inline-block;
+   margin-left: 9px;
+    font-size: 14px;
+line-height: 19px;
+color: var(--secondary-color);
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: normal;
+margin-top: 16px;
+}
+.header__btn {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+    background: var(--primary-color);
+max-width: 200px;
+width: 100%;
+}
+.header__btn:hover {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.header__btn-one {
+    border: 1px solid #313131;
+    width: 480px;
+}
+
+.btn:hover {
+    background: var(--primary-color);
+}
+
+.header__nav-link {
+    display: inline-block;
+    font-size: 18px;
+line-height: 70px;
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: normal;
+color: var(--primary-color);
+margin-right: 30px;
+}
+
+.header__nav-link:hover {
+    color: var(--primary-color);
+
+}
+
+
+
+.header__content-item-text {
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 70px;
+color: var(--primary-color);
+text-align: center;
+margin-bottom: 131px;
+}
+
+.header__content-item-link {
+    font-family:'Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+color: var(--secondary-color);
+background: var(--primary-color);
+display: flex;
+text-align: center;
+padding: 13px 46px;
+max-width: 190px;
+width: 100%;
+margin: 0 auto;
+
+}
+
+.header__content-item-link:hover {
+color: var(--secondary-color);
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    background:  #ABABAB;
+}
+
+.carousel-indicators [data-bs-target].active {
+    background: var(--primary-color);
+}
+
+.carousel-indicators [data-bs-target]:nth-of-type(1) {
+    margin-right: 25px;
+}
+
+.main {
+    margin-top: 88px;
+}
+/* HEADER END */
+
+
+
+/* MAIN START */
+.main__content-left {
+    background: var(--secondary-color);
+ 
+}
+
+.main__left-description {
+    
+    letter-spacing: 0.05em;
+    color: var(--primary-color);
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 70px;
+margin: 0 !important;
+
+}
+
+.main__left-title {
+    
+    color: var(--primary-color);
+    letter-spacing: 0.05em;
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 70px;
+margin: 0 !important;
+}
+
+.main__left-text {
+    top: 370px;
+  left: 20px;
+}
+  
+.main__left-span {
+    letter-spacing: 0.05em;
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 40px;
+color: var(--secondary-color);
+border-radius: 50%;
+background: var(--primary-color);
+padding: 15px 10px 15px 11px;
+left: 20px;
+top: 20px;
+}
+
+
+
+.main__right-description {
+    letter-spacing: 0.05em;
+    color: var(--primary-color);
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 70px;
+margin-bottom: 0 !important;
+}
+
+.main__right-title {
+   
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 70px;
+color: var(--primary-color);
+letter-spacing: 0.05em;
+} 
+
+.main__right-text {
+    top: 110px;
+    left: 20px;
+}
+
+.main__right-span {
+    color: var(--secondary-color);
+    letter-spacing: 0.05em;
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 40px;
+background: var(--primary-color);
+border-radius: 50%;
+padding: 15px 10px 15px 11px;
+left: 30px;
+top: 20px;
+}
+
+
+.main__right-img-block {
+    margin-top: 20px;
+}
+
+.main__right-img {
+    background: var(--secondary-color);
+  
+}
+
+.main__right-img:nth-of-type(1) {
+    margin-right: 20px;
+}
+   
+
+.main__right-description-span {
+    letter-spacing: 0.05em;
+    color: var(--primary-color);
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+left: 20px;
+max-width: 280px;
+width: 100%;
+bottom: 160px;
+}
+
+.main__right-two-title-span {
+    color: var(--primary-color);
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 70px;
+letter-spacing: 0.05em;
+bottom: 115px;
+left: 20px;
+}
+
+.main__right-bottom-span {
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    letter-spacing: 0.05em;
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 40px;
+border-radius: 50%;
+padding: 15px 10px 15px 11px;
+left: 0;
+top: 160px;
+left: 15px;
+}
+
+.main__right-img-block_one {
+    margin-top: 20px;
+   
+}
+
+.main__right-two-description {
+    color: var(--primary-color);
+    letter-spacing: 0.05em;
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 35px;
+left: 380px;
+bottom: 180px;
+
+}
+
+.main__right-title-span {
+    color: var(--primary-color);
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 70px;
+    left: 380px;
+    bottom: 130px;
+    
+}
+
+.main__right-right-span {
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    letter-spacing: 0.05em;
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 40px;
+padding: 15px 10px 15px 11px;
+border-radius: 50%;
+bottom: 15px;
+right: 210px;
+}
+
+.main__content-link {
+    display: flex;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    max-width: 190px;
+    width: 100%;
+    letter-spacing: 0.05em;
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 50px;
+justify-content: center;
+margin: 30px auto;
+
+}
+.main__content-link:hover {
+    color: var(--secondary-color);
+}
+
+
+
+.main__cell-phone {
+    margin-top: 70px;
+}
+
+
+.cell-phone-top-title {
+    font-family:' Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: var(--primary-color);
+}
+
+.cell-phone-description {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: var(--primary-color);
+text-align: center;
+
+}
+
+.cell-phone-title {
+   display: inline-block; 
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 19px;
+color: var(--primary-color);
+text-align: center;
+}
+
+.cell-phone-text {
+    display: flex;
+    flex-direction: column;
+   top: 220px;
+   left: 60px;
+   
+}
+
+.cell-phone-link {
+    display: flex;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    max-width: 190px;
+    width: 100%;
+    letter-spacing: 0.05em;
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 50px;
+justify-content: center;
+margin: 112px auto 0;
+}
+
+
+.cell-phone-link:hover {
+    color: var(--secondary-color);
+}
+
+.btn-outline-success {
+border-color: var(--primary-color);
+color: var(--primary-color);
+}
+
+
+.main__computers-title {
+    color: var(--primary-color);
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 49px;
+
+}
+
+.main__computers {
+    margin-top: 70px;
+}
+
+
+
+.computers-description {
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: var(--primary-color);
+margin-bottom: 5px !important;
+}
+
+.computers-title {
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 19px;
+color: var(--primary-color);
+text-align: center;
+}
+
+.computers-text {
+  right: 70px;
+bottom: 30px;
+}
+
+
+.main__computers-link {
+    display: flex;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    max-width: 190px;
+    width: 100%;
+    letter-spacing: 0.05em;
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 50px;
+justify-content: center;
+margin: 30px auto 0;
+}
+.main__computers-link:hover {
+    color: var(--secondary-color);
+}
+
+
+.main__playstation {
+    margin-top: 163px;
+}
+
+.playstation-left-title {
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 65px;
+color: var(--primary-color);
+
+}
+
+.playstation-left-link {
+    display: flex;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    max-width: 190px;
+    width: 100%;
+    justify-content: center;
+
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 50px;
+margin-top: 70px;
+
+}
+.playstation-left-link:hover {
+    color: var(--secondary-color);
+}
+
+.playstation-right-img {
+ right: 5px;
+ 
+}
+
+.main__top-seller {
+    margin-top: 100px;
+    
+}
+
+.main__top-seller-title {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+
+.top-seller-description {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--primary-color);
+   
+}
+
+.top-seller-title {
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 19px;
+color: var(--primary-color);
+text-align: center;
+}
+
+.top-seller-text-airpods {
+    right: 130px;
+    top: 280px;
+}
+
+.top-seller-text {
+    right: 80px;
+    top: 280px;
+}
+
+.top-seller-top-title {
+   display: flex;
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+color: var(--primary-color);
+margin-top: 60px;
+justify-content: flex-end;
+}
+.top-seller-top-title:hover {
+    color: var(--primary-color);
+}
+
+.top-seller-link {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 50px;
+margin: 75px auto 0;
+max-width: 190px;
+width: 100%;
+}
+.top-seller-link:hover {
+color: var(--secondary-color);
+}
+
+
+/* MAIN END */
+
+
+
+/* FOOTER START */
+.footer {
+    background: var(--primary-color);
+   
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.footer__middle-title {
+    display: inline-block;
+    margin-bottom: 0;
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+color: var(--secondary-color);
+}
+
+.footer__btn-link {
+    display: inline-block;
+    color: var(--secondary-color);
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+margin-bottom: 0;
+
+}
+
+.footer__btn {
+    width: 450px;
+    border: 1px solid var(--secondary-color);
+}
+
+.footer__btn-content {
+    max-width: 190px;
+    width: 100%;
+    border: 1px solid ;
+    border-color: var(--secondary-color);
+    padding: 13px 0;
+ 
+}
+.footer__btn-content:hover {
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+}
+.form-control {
+    border-radius: none;
+}
+
+.footer__right-img {
+    margin-right: 28px;
+}
+
+.footer__right-list {
+    margin-top: 30px;
+}
+
+.footer__bottom-link {
+    display: inline-block;
+    font-family:' Noto Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--secondary-color);
+   margin-right: 30px;;
+}
+.footer__bottom-link:hover {
+    color: var(--secondary-color);
+}
+
+.footer__bottom {
+    margin-top: 50px;
+}
+/* FOOTER END */
+
+
+
+
+/* IPHONE  START */
+.apple-link {
+    display: flex;
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: var(--secondary-color);
+background: var(--primary-color);
+max-width: 100px;
+width: 100%;
+justify-content: center;
+margin: 0 auto;
+padding: 6px 0;
+}
+.apple-link:hover {
+    color: var(--secondary-color);
+}
+.main__samsung {
+    margin-top: 70px;
+}
+
+
+.main__samsung-title {
+    font-family:' Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: var(--primary-color);
+}
+
+.samsung-description {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: var(--primary-color);
+text-align: center;
+
+}
+
+.samsung-title {
+   display: inline-block; 
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 19px;
+color: var(--primary-color);
+text-align: center;
+}
+
+.samsung-text {
+    display: flex;
+    flex-direction: column;
+   top: 220px;
+   left: 60px;
+}
+
+
+.samsung-link {
+    display: flex;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    max-width: 190px;
+    width: 100%;
+    letter-spacing: 0.05em;
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 50px;
+justify-content: center;
+margin: 58px auto 0;
+}
+
+.samsung-link:hover {
+    color: var(--secondary-color);
+}
+.main__xiaomi {
+    margin-top: 70px;
+}
+
+
+.main-xiaomi-title {
+    font-family:' Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: var(--primary-color);
+}
+
+.xiaomi-description {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: var(--primary-color);
+text-align: center;
+
+}
+
+.xiaomi-title {
+   display: inline-block; 
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 19px;
+color: var(--primary-color);
+text-align: center;
+}
+
+.xiaomi-text {
+    display: flex;
+    flex-direction: column;
+   top: 220px;
+   left: 60px;
+}
+
+
+.xiaomi-link {
+    display: flex;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    max-width: 190px;
+    width: 100%;
+    letter-spacing: 0.05em;
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 50px;
+justify-content: center;
+margin: 58px auto 0;
+}
+
+.xiaomi-link:hover {
+    color: var(--secondary-color);
+}
+
+
+.main__content {
+    margin-top: 80px;
+}
+
+
+.main__content-about-title {
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 65px;
+color: var(--primary-color)
+}
+
+.main__content-about-description {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: var(--primary-color);
+ max-width: 454px;
+ width: 100%;
+ text-align: center;
+}
+
+.main__content-about-link {
+    display: flex;
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+color: var(--secondary-color);
+max-width: 190px;
+width: 100%;
+padding: 12px 0;
+background: var(--primary-color);
+justify-content: center;
+bottom: 20px;
+left: 150px;
+}
+.main__content-about-link:hover {
+    color: var(--secondary-color);
+}
+
+.bottom-content-link {
+    display: inline-block;
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 41px;
+color: #000000;
+margin-right: 22px;
+}
+
+.main__bottom-content {
+    margin-top: 45px;
+
+}
+
+.cell-phone-icon::before {
+    content: '\f004';
+   color: var(--primary-color);
+    font-size: 18px;
+ 
+}
+
+
+.cell-phone-icon {
+   right: 10px;
+   top: 10px;
+   opacity: 1;
+}
+
+.cell-phone-content {
+    opacity: 0;
+
+}
+
+
+
+
+.cellphone-content:hover {
+    border: 1px solid var(--secondary-color);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+
+}
+
+
+.cell-phone-buy {
+    display: flex;
+    font-family:' Noto Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: var(--secondary-color);
+background: var(--primary-color); 
+padding: 6px 0;
+max-width: 100px;
+width: 100%;
+justify-content: center;
+margin: 0 auto;
+}
+
+.cell-phone-buy:hover {
+    color: var(--secondary-color);
+}
+
+.cell-phone-content, .cell-phone-buy {
+opacity: 0;
+transition: 1s;
+}
+
+
+
+/* IPHONE END */
+
+
+
+
+
+/* IPHONE-ABOUT START */
+
+
+/* IPHONE ABOUT END */
